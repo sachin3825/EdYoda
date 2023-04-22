@@ -1,0 +1,14 @@
+.box-container {
+  width: 100%;
+  /* object-fit: fill; */
+  border-radius: 2px;
+  border: 1px lightblue solid;
+  padding: 20px 0px;
+  background: #fff;
+  box-shadow: 10px 5px 15px 0px rgba(203, 203, 203, 0.75);
+
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}

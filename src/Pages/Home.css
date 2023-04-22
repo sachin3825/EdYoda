@@ -1,0 +1,176 @@
+.left {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+
+  text-transform: uppercase;
+}
+
+.left .title {
+  font-size: 2rem;
+  margin: 1px;
+}
+
+.grey-bg {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgb(212, 210, 210);
+  border-radius: 20px;
+  opacity: 0.6;
+  font-size: 9px;
+}
+.blue-bg {
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-evenly;
+  align-items: center;
+  background: lightblue;
+  opacity: 0.6;
+  border-radius: 20px;
+  font-size: 9px;
+}
+
+/* middle */
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.middle .round {
+  display: flex;
+  gap: 20px;
+}
+
+.middle .round .tests {
+  display: flex;
+  /* width: 100%; */
+  font-size: 0.8em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(212, 210, 210);
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-weight: 500;
+}
+
+.right-button {
+  border: 2px solid lightskyblue;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: lightskyblue;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/** coutine learing container */
+
+.countine-learning-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 40px;
+}
+
+.countine-learning-title-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.title-container-title {
+  text-transform: uppercase;
+}
+
+.instructor-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.instructor-container img {
+  object-fit: contain;
+  width: 35px;
+}
+
+.instructor-container p {
+  color: lightskyblue;
+  font-weight: 500;
+}
+.result-count {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+.result-polls p {
+  font-size: 10px;
+  color: lightskyblue;
+}
+
+.result-polls div {
+  width: 200px;
+  background-color: lightskyblue;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.countine-learning-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.countine-learning-right p {
+  margin: 0;
+}
+
+.grey-text {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.feedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.blue-text {
+  color: lightskyblue;
+  font-style: italic;
+}
+
+.countine-learning-right button {
+  background-color: gainsboro;
+  border: none;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.Progress-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.progress {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.view-progress {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(42, 165, 213);
+}

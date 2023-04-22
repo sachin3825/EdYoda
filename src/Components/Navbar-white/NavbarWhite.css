@@ -1,4 +1,6 @@
 .white-nav {
+  /* position: fixed; */
+
   background: white;
   display: flex;
   justify-content: space-between;
@@ -13,6 +15,7 @@
   background: -webkit-linear-gradient(160deg, #4eb3eb 0%, #3649ca 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: -3px;
 }
 
 .user-details {
@@ -24,6 +27,6 @@
 }
 
 .user-details img {
-  width: 50px;
+  width: 40px;
   object-fit: contain;
 }
