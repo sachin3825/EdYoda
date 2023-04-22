@@ -1,3 +1,7 @@
+:root {
+  --bg-royalblue: #282e58;
+}
+
 * {
   overflow-x: hidden;
   box-sizing: border-box;
