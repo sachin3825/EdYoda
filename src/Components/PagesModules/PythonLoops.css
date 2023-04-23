@@ -1,0 +1,32 @@
+.Python-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.Daily_feedback {
+  align-self: flex-end;
+  color: blue;
+  text-transform: uppercase;
+}
+.session nav ul {
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.session nav ul li {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.session nav ul li .li-items {
+  display: flex;
+  gap: 10px;
+  /* border: 1px solid black; */
+}
+
+.session nav ul li .title {
+  border: 1px solid black;
+}
