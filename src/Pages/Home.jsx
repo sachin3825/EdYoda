@@ -5,7 +5,7 @@ import dataimage2 from "../assets/Data Wrangling.png";
 import "./Home.css";
 function Home() {
   return (
-    <div>
+    <div className='home-container'>
       <h1>Upcoming Certifications</h1>
       <Container>
         <div className='left'>

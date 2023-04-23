@@ -5,7 +5,7 @@
   width: 100%;
   background: var(--bg-royalblue);
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: center;
   /* gap: 20px; */
   padding: 0 40px;

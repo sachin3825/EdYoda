@@ -5,7 +5,9 @@ import Sidebar from "./Components/SideBar/Sidebar";
 import Home from "./Pages/Home";
 import Modules from "./Pages/Modules";
 import Instructors from "./Pages/Instructors";
-import { BrowserRouter } from "react-router-dom";
+import PythonLoops from "./Components/PagesModules/PythonLoops";
+import Assignment from "./Components/PagesModules/Assignment";
+import Quiz from "./Components/PagesModules/Quiz";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,15 +17,18 @@ function App() {
         <NavbarWhite />
         <NavbarBlue />
       </div>
-      <BrowserRouter>
-        <Sidebar>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/modules' element={<Modules />} />
-            <Route path='/instructors' element={<Instructors />} />
-          </Routes>
-        </Sidebar>
-      </BrowserRouter>
+
+      <Sidebar>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/modules' element={<Modules />}>
+            <Route path='PythonLoops' element={<PythonLoops />} />
+            <Route path='Assignment' element={<Assignment />} />
+            <Route path='Quiz' element={<Quiz />} />
+          </Route>
+          <Route path='/instructors' element={<Instructors />} />
+        </Routes>
+      </Sidebar>
     </div>
   );
 }
